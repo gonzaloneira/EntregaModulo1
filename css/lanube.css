@@ -1,0 +1,444 @@
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Reem Kufi Fun', sans-serif; */
+
+body {
+    font-family: 'Reem Kufi Fun', sans-serif;
+
+}
+
+.holder {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+header {
+    /* background-color: rgb(169, 236, 253); */
+    background-color: #009952;
+    /* background-color: #279e15; */
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+header span {
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+}
+
+footer {
+    background-color: #009952;
+    color: white;
+    padding: 15px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+nav {
+    background-color: rgb(79, 221, 121);
+    height: 38px;
+    position: fixed;
+    width: 100%;
+    top: 87px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    /*saca el subrayado del texto*/
+    padding: 10px;
+    display: block;
+    /*esto es para que interprete que es un bloque de fila y funcione el padding superior e inferior*/
+    text-align: center;
+    transition: all 0.1s;
+}
+
+/* INDEX */
+nav ul li a.index {
+    background: #279e15;
+}
+
+nav ul li a.index:hover {
+    background: #2fd615;
+    padding: 18px;
+    border-radius: 0 0 15px 15px;
+    font-size: 20px;
+}
+
+nav ul li a.indexactivo {
+    /* background: #279e15; */
+    background: #2fd615;
+    padding: 18px;
+    border-radius: 0 0 15px 15px;
+    font-size: 20px;
+}
+
+nav ul li a.indexactivo:hover {
+    background: #2fd615;
+    padding: 18px;
+    border-radius: 0 0 15px 15px;
+    font-size: 20px;
+}
+
+
+/* NOSOTROS */
+nav ul li a.nosotros {
+    background: #07a0a0;
+}
+
+nav ul li a.nosotros:hover {
+    background: #08BDBD;
+    padding: 18px;
+    border-radius: 0 0 15px 15px;
+    font-size: 20px;
+}
+
+nav ul li a.nosotrosactivo {
+    background: #08BDBD;
+    padding: 18px;
+    border-radius: 0 0 15px 15px;
+    font-size: 20px;
+}
+
+nav ul li a.nosotrosactivo:hover {
+    background: #08BDBD;
+    padding: 18px;
+    border-radius: 0 0 15px 15px;
+    font-size: 20px;
+}
+
+/* STAFF */
+nav ul li a.staff {
+    background: #c41633;
+}
+
+nav ul li a.staff:hover {
+    background: #F21B3F;
+    padding: 18px;
+    border-radius: 0 0 15px 15px;
+    font-size: 20px;
+}
+
+nav ul li a.staffactivo {
+    background: #F21B3F;
+    padding: 18px;
+    border-radius: 0 0 15px 15px;
+    font-size: 20px;
+}
+
+nav ul li a.staffactivo:hover {
+    background: #F21B3F;
+    padding: 18px;
+    border-radius: 0 0 15px 15px;
+    font-size: 20px;
+}
+
+
+/* CONTACTO */
+nav ul li a.contacto {
+    background: #cc7a10;
+}
+
+nav ul li a.contacto:hover {
+    background: #FF9914;
+    padding: 18px;
+    border-radius: 0 0 15px 15px;
+    font-size: 20px;
+}
+
+nav ul li a.contactoactivo {
+    background: #FF9914;
+    padding: 18px;
+    border-radius: 0 0 15px 15px;
+    font-size: 20px;
+}
+
+nav ul li a.contactoactivo:hover {
+    background: #FF9914;
+    padding: 18px;
+    border-radius: 0 0 15px 15px;
+    font-size: 20px;
+}
+
+main {
+    padding-top: 130px;
+}
+
+main h2,
+main h1 {
+    color: #009952;
+}
+
+.imagencentral {
+    max-width: 1080px;
+    max-height: 960;
+    /* padding-bottom: 500px; */
+}
+
+main .nubes {
+    display: block;
+    text-align: center;
+    display: flex;
+    margin-top: 30px;
+    /* position: relative; */
+}
+
+main .nubes .nube {
+    max-width: 360px;
+    transition: all 0.2s;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 70px 50px;
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.amarilla {
+    background-color: #ffc107;
+}
+
+.roja {
+    background-color: #F21B3F;
+}
+
+.verde {
+    background-color: #2fd615;
+}
+
+main .nubes .nube:hover {
+    transform: scale(110%);
+}
+
+main .nubes .nube i {
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+
+.terceraparteindex {
+    margin-top: 30px;
+    justify-content: space-between;
+
+}
+
+.terceraparteindex div {
+    display: flex;
+    gap: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+}
+
+.terceraparteindex img {
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+.fotosninos{
+    margin-bottom: 20px;|
+}
+
+.fotosninos:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.actividades{
+    flex-wrap: wrap;
+    max-width: 50%;
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+}
+
+.actividades h2{
+    margin: 0;
+    padding: 0;
+}
+
+.contactos {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.contactos section {
+    width: 100%;
+    padding-right: 120px;
+}
+
+.datos p {
+    font-size: 14px;
+}
+
+.datos ul li {
+    font-size: 18px;
+    list-style: none;
+    line-height: 50px;
+    transition: all 0.3s;
+}
+
+.datos ul li:hover{
+    font-size: 22px;
+}
+
+.datos ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.formulario p label {
+    min-width: 80px;
+}
+
+.formulario p input{
+    height: 20px;
+}
+
+.formulario p input,
+.formulario p textarea {
+    background-color: #eeeeee;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #9c9c9c;
+    font-size: 14px;
+    padding: 5px 15px;
+    margin: 1px;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 120px;
+}
+
+.formulario input[type="submit"]{
+    background-color: #009952;
+    border-color: #009952;
+    color: white;
+    font-size: 16px;
+    width: 120px;
+    border-radius: 20px;
+    transition: all 0.2s;
+    cursor: pointer;
+    height: 40px;
+}
+.formulario input[type="submit"]:hover{
+    background-color: #2fd615;
+    border-color: #2fd615;
+}
+
+.datos .fa-solid{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #FF9914;
+}
+
+.fa-solid{
+    margin-right: 10px;
+}
+
+.staffsection{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+
+.staffsection img {
+    border-radius: 50%;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.staffsection p {
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.staffsection .personas .persona {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    /* border: 5px dotted #ffc107; */
+}
+
+#cara1{
+    border: 5px solid #ffc107;
+    border-radius: 30px;
+    transition: all 0.2s;
+}
+
+#cara1:hover{
+    background-color:  #ffc107;
+}
+
+#cara2{
+    border: 5px solid #F21B3F;
+    border-radius: 30px;
+    transition: all 0.2s;
+}
+
+#cara2:hover{
+    background-color:  #F21B3F;
+}
+
+#cara3 {
+    border: 5px solid #2fd615;
+    border-radius: 30px;
+    transition: all 0.2s;
+}
+
+#cara3:hover{
+    background-color:  #2fd615;
+}
+
+#cara4 {
+    border: 5px solid #08BDBD;
+    border-radius: 30px;
+    transition: all 0.2s;
+}
+
+#cara4:hover{
+    background-color:  #08BDBD;
+}
+
+.persona h3 {
+    margin: 8px 0;
+
+}
+
+.persona h4 {
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+
+.paginaenconstruccion{
+    font-size: 30px;
+    padding: 50px;
+}
